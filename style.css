@@ -1,0 +1,183 @@
+body { 
+    /*background-color: rgb(3, 7, 24);*/
+    /*background-image: url('/0.1/hellodribbble3.gif');*/
+    background-image: url(/assets/IMG_0617.jpg);
+    /* IMG_0617 */
+    text-align: center;
+    background-size: cover;
+    
+
+}
+
+img { 
+    width: 150px;
+    height: 150px;
+}
+
+.container-1{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+    
+
+}
+
+.item { 
+    
+    display: grid;
+    background-color: rgb(3, 7, 24);
+    height: 100px;
+    width: 100px;
+    
+    
+       
+}
+
+.item-1{
+
+    display: grid;
+    /*background-color: rgb(2, 2, 17);*/
+    grid-column: 1/4;
+  /*  grid-row: 2/4; */
+    
+    
+    
+}
+
+.item1 {
+    background-image: url(/assets/190407_pixel_dribble_first_shot.gif);
+    background-size: cover;
+    background-position: bottom;
+    background-size: 250px; 
+    display: grid;
+    height: 40px;
+    width: 100px;
+    margin: auto;
+    
+}
+
+
+    .item-2{
+       /* background-image: url('/0.2/moon.jpg');*/
+        background-size: 70px;
+        background-repeat: no-repeat;
+        display: grid;
+        grid-column: 3/3;
+        color:  white ;
+        text-shadow: 1px 1px red;
+        font-family:'Press Start 2P', cursive;
+       /*  display: none; */
+        visibility:hidden ;
+        font-size: x-large;
+
+
+        
+    }
+
+h4 {
+    color: #ffffff; 
+    font-family: 'VT323', monospace;
+} 
+
+#colorBtn-1 {
+    margin: auto; 
+    background-image: url(/assets/190407_pixel_dribble_first_shot.gif);
+    border: 1px solid black;
+    
+}
+
+
+button {
+     
+    
+    font-family:'Press Start 2P', cursive;
+    color: aliceblue;
+    margin: auto;
+    background-image: url(/assets/190407_pixel_dribble_first_shot.gif);
+    background-size: cover;
+    background-size: 250px;
+    background-position: bottom;
+    border: 1px solid #ffa500 ;
+
+}
+
+h3 {
+   /* font-family:'Press Start 2P', cursive;*/
+  /*  font-size: xx-small;*/
+  font-family: 'VT323', monospace;
+  font-size: 30px;
+    color : rgb(197, 130, 5);
+    text-shadow: 1px 1px  darkkhaki;
+    background-color: rgba(255, 255, 255, 0.123);
+    
+}
+
+
+    table, td, tr { 
+        border: 1px solid white ;
+        list-style-type: none;
+        margin: auto;
+        border-collapse: collapse;
+        /*background-color: rgb(2, 2, 17);*/
+        background-color: rgba(2, 2, 17, 0.307);
+    }
+    
+     td { 
+        width:40px; 
+    }
+    
+      tr{ 
+        height: 40px;
+      }
+
+
+@media screen and (min-width: 400px) {
+    body {
+        background-size: contain;
+        background-size: 10%;
+    }
+
+    table, td, tr { 
+        border: 1px solid white ;
+        list-style-type: none;
+        margin: auto;
+        border-collapse: collapse;
+        background-color: rgba(2, 2, 17, 0.507);
+    }
+    
+     td { 
+        width:80px; 
+    }
+    
+      tr{ 
+        height: 80px;
+      }
+
+      h3 {
+        /* font-family:'Press Start 2P', cursive;*/
+       /*  font-size: xx-small;*/
+       font-family: 'VT323', monospace;
+       font-size: 60px;
+         color : rgb(197, 130, 5);
+         text-shadow: 3px 3px  darkkhaki;
+         background-color: rgba(255, 255, 255, 0.123);
+         
+     }
+
+
+     button {
+     
+    
+        font-family:'Press Start 2P', cursive;
+        color: aliceblue;
+        margin: auto;
+        border: 2px solid #ffa500 ;
+        
+        
+        
+    
+    }
+
+    
+}
