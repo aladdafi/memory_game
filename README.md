@@ -1,13 +1,10 @@
-This is an old project that I use to work on It in one of my courses, Then I come back to It because that I have a lot of Issue and I need some help from advanced programmer. 
-That's why I upload it up here after I really understand the concept of GitHup! 
+In this branch I would like to fix all the issue 
 
-this is my first code and I am really interested to share it 
+now first one:
 
-Discrbtipn: 
-# memory_game
-I am trying to made a game by using JQuery Html and CSS.   the concept of these project it's about "memory game".  when you press start one color It will show up in one square after 5 sec it will Disappears and then user should fill the empty squares then press 'done' to go to the next level  before the time is up!   
+in checkwinner function there is an issue 
+when the user made a mistake the table chaking then reset the table but I noticed the consolog it dose'nt reset the values 
+it keep adding the color in the array 
 
-
-I use three langoues here HTML, CSS and JQuery 
-
+thats why the user when he have a second chance the table will be chaking over and over and over 
 
